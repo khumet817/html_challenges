@@ -1,5 +1,18 @@
 # html_challenges
 HTML challenges on LMS
+
+Challenge 1 - Headings & Pargraphs Challenge
+Challenge 2 - Paragraph Tag Exercise
+Challenge 3 - Lists, Text Formatting and Images
+Challenge 4 - List Tag Exercises
+Challenge 5 - Article Challenge
+Challenge 6 - Tables Challenge
+Challenge 7 - Nested Table Challenge
+Challenge 8 - Simple Forms Challenge
+Challenge 9 - Form Validation Challenge
+Challenge 10 -
+Challenge 11 -
+
 ## Setting up your workspace
 
 - Open your terminal and launch the command 
