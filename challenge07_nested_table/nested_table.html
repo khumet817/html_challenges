@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Challenge 7</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="main.js"></script>
+</head>
+<body>
+    
+        <!-- Nested Table Challenge -->
+
+        <h1>Nested Table 1</h1>
+
+
+
+        <table border="1px" width="500px" height="400px"> 
+           
+           <thead> 
+            <tr>
+                <th width="100px" height="100px"><center>1</center></th>
+                <th colspan="3" width="400px" height="100px"><center>2</center></th>
+            </tr>
+           </thead> 
+    
+               <tbody>
+                    <tr>
+                        <td rowspan="3" width="100px" height="300px"><center>3</center></td>
+                        <td style="background-color:orangered"><center>4</center></td>
+                        <td style="background-color:orangered"><center>5</center></td>
+                        <td rowspan="2" style="background-color:yellow"><center>6</center></td>
+                    </tr>
+
+                    <tr>
+                        <td style="background-color:orangered"><center>7</center></td>
+                        <td style="background-color:orangered"><center>8</center></td>
+                    </tr>
+
+                    <tr>
+                        <td colspan="2" style="background-color:yellow"><center>9</center></td>
+                        <td style="background-color:yellow"><center>10</center></td>
+                    </tr>
+                </tbody>
+        </table>
+
+        <h1>Nested Table 2</h1>
+
+        <!-- The second way of doing the nested table -->
+
+            <table border="1px" width="600" height="500">
+                    <thead>
+                            <td width="100px" height="100px"><center><strong>1</strong></center></td>
+                            <td><center><strong>2</strong></center></td>
+                    </thead>
+                <tbody>
+                    <tr>
+                        <td><center><strong>3</strong></center></td>
+                        <td>
+                            <table border="1px" width="500px" height="400px">
+                                
+                                <thead>
+                                    <td>
+                                        <table border="1px" width="350px" height="300px">
+                                            
+                                            <thead>
+                                                <td style="background-color:orangered"><center><strong>4</strong></center></td>
+                                                <td style="background-color:orangered"><center><strong>5</strong></center></td>
+                                            </thead>
+                                                            
+                                            <tbody>
+                                                <tr>
+                                                    <td style="background-color:orangered"><center><strong>7</strong></center></td>
+                                                    <td style="background-color:orangered"><center><strong>8</strong></center></td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </td>
+                                    <td style="background-color:yellow"><center><strong>6</strong></center></td>
+                                </thead>
+                                    
+                                <tbody>
+                                    <tr>
+                                        <td style="background-color:yellow" width="350px" height="100px"><center><strong>9</strong></center></td>
+                                        <td style="background-color:yellow"><center><strong>10</strong></center></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+
+</body>
+</html>
